@@ -148,6 +148,3 @@ def regristroTransporte(sucursal_id):
                 return redirect(url_for('registrar_llegada_transporte', sucursal_id = sucursal_id)) 
 
 
-
-if __name__ == '__main__':
-    app.run()
